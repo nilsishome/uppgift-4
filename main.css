@@ -6,17 +6,12 @@
     color: #888;
 }
 
-.fa-trash-o:hover
-{
-    color: #ff0000;
-}
-
-#check:hover
+.check:hover
 {
     color: #008000;
 }
 
-i, #check
+.trashcan, .check
 {
     cursor: pointer;
     padding-left: 5px;
