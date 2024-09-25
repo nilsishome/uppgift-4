@@ -22,6 +22,12 @@ button.addEventListener(
     addItem
 );
 
+// Make an option to press 'enter' on the keyboard, instead of button.
+input.addEventListener(
+    'keypress',
+    e => (e.key === 'Enter') ? addItem() : null
+);
+
 // Function that edits the completion status on the objects, in the array.
 function listStatus(text, status)
 {
