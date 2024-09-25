@@ -8,7 +8,7 @@ const input = document.querySelector('input');
 const list = document.querySelector('ul');
 
 // Declare variables, that will show the number of completed tasks.
-let completedTasks = document.getElementById('completedTasks');
+const completedTasks = document.getElementById('completedTasks');
 let tasks = 0;
 completedTasks.innerHTML = tasks;
 
