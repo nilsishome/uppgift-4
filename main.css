@@ -3,7 +3,8 @@
 .completed
 {
     text-decoration: line-through;
-    color: #888;
+    color: #e81212;
+    font-family:'Times New Roman', serif;
 }
 
 .check:hover
@@ -17,7 +18,51 @@
     padding-left: 5px;
 }
 
+body
+{
+    font-family: 'Cochin', serif;
+    font-size: 18px;
+
+    background-color: #000;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+div
+{
+    background-image: radial-gradient(circle at center, #ff7b00, #e81212);
+
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+
+    border: 1px solid #000;
+    border-radius: 50px;
+
+    padding: 2%;
+}
+
+h1
+{
+    text-align: center;
+}
+
+input, button
+{
+    border-radius: 50px;
+    margin: 5px;
+}
+
+ul
+{
+    background-color: #ff7b00;
+    border-radius: 50px;
+}
+
 li
 {
     font-size: 20px;
+    list-style: none;
 }
