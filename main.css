@@ -110,6 +110,8 @@ li
         min-width: 295px;
         min-height: 35px;
 
+        font-size: 1em;
+
         margin-top: 3em;
     }
 
@@ -121,6 +123,11 @@ li
 
         margin-left: 220px;
         margin-top: 7em;
+    }
+
+    ul
+    {
+        max-width: 170px;
     }
 
     #error
