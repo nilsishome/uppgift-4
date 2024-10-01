@@ -20,16 +20,38 @@
     padding-left: 5px;
 }
 
+#error
+{
+    text-decoration: underline;
+    font-size: larger;
+}
+
 body
 {
     font-family: 'Cochin', serif;
     font-size: 18px;
 
     background-color: #000;
+    background-image: url('illusion.png');
+    background-size: 1200px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+
     color: #fff;
     text-shadow: 1px 1px 2px #000;
     margin: 0 auto;
     padding: 1em;
+}
+
+button
+{
+    background-image: linear-gradient(to top right, #ff7b00 50%, #fff);
+}
+
+button:hover
+{
+    background-image: linear-gradient(to top right, #e81212 50%, #fff);
+    color: #fff;
 }
 
 div
@@ -49,6 +71,11 @@ div
 h1
 {
     text-align: center;
+}
+
+input
+{
+    color: #e81212;
 }
 
 input, button
