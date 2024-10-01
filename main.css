@@ -100,18 +100,32 @@ li
     
     div
     {
-        min-width: 180px;
+        min-width: 320px;
+        min-height: 400px;
+        margin-left: 0;
     }
 
     input
     {
-        max-width: 160px;
-        min-height: 25px;
+        min-width: 295px;
+        min-height: 35px;
+
+        margin-top: 3em;
     }
 
     button
     {
-        min-height: 25px;
+        display: block;
+        min-height: 45px;
+        min-width: 80px;
+
+        margin-left: 220px;
+        margin-top: 7em;
+    }
+
+    #error
+    {
+        margin-top: -5.5em;
     }
 
 }
