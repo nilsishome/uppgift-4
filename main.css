@@ -95,3 +95,23 @@ li
     font-size: 20px;
     list-style: none;
 }
+
+@media (max-width: 580px) {
+    
+    div
+    {
+        min-width: 180px;
+    }
+
+    input
+    {
+        max-width: 160px;
+        min-height: 25px;
+    }
+
+    button
+    {
+        min-height: 25px;
+    }
+
+}
